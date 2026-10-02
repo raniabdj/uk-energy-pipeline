@@ -1,0 +1,21 @@
+# Data outputs — the pipeline regenerates these; don't commit run artifacts
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env (in case this grows to need one later)
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+.vscode/
